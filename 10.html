@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="p ret t"></div>
+  <div class="p b l"></div>
+  <div class="p b r"></div>
+  <div class="p rc t"></div>
+  <div class="p b c t"></div>
+  <style>
+    body {
+      margin: 0;
+      background: #62306D
+    }
+
+    .t {
+      left: 50%;
+      transform: translateX(-50%)
+    }
+
+    .p {
+      position: absolute
+    }
+
+    .ret {
+      bottom: 0;
+      width: 300;
+      height: 100;
+      background: #F7EC7D
+    }
+
+    .b {
+      height: 60;
+      width: 60;
+      background: #E38F66;
+      border: 20px solid #AA445F;
+      border-radius: 50%
+    }
+
+    .l {
+      bottom: 50;
+      left: 50
+    }
+
+    .r {
+      bottom: 50;
+      right: 50
+    }
+
+    .c {
+      border-color: #E38F66;
+      background: #AA445F;
+      top: 50
+    }
+
+    .rc {
+      height: 100;
+      width: 100;
+      background: #F7EC7D;
+      left: 50%;
+      top: 100
+    }
+  </style>
+</body>
+
+</html>
